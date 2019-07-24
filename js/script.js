@@ -6,4 +6,12 @@ $(document).ready(function() {
     pagination: false,
   });
 
+  var typed = new Typed(".typed", {
+    strings: ["Software Engineer."],
+    typeSpeed: 30,
+    loop: true,
+    startDelay: 1000,
+    showCursor: false
+  });
+
 });
