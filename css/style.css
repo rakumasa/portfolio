@@ -222,6 +222,8 @@ body {
 .items .item {
   position: relation;
   overflow: hidden;
+  border-style: solid;
+  border-color: #3498db;;
 }
 
 .items .icons {
